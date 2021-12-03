@@ -17,7 +17,7 @@ h2 {
     top: 55%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%) 
+    transform: translate(-50%, -50%);
 }
 
 .hidden {
@@ -32,6 +32,34 @@ body {
     background-color: rgb(109, 209, 196);
 }
 
-a {
+.restart {
+    user-select: none;
     text-decoration: none;
+    position: absolute;
+    top: 60%;
+    left: 47%;
+    font-size: 50px;
+    border-radius: 12px;
+    background-color: rgb(109, 209, 196);
+    color: black;
+    border: 2px solid rgb(109, 209, 196);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+.mainMeny {
+    user-select: none;
+    text-decoration: none;
+    position: absolute;
+    top: 67%;
+    left: 43.5%;
+    font-size: 50px;
+    border-radius: 12px;
+
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
