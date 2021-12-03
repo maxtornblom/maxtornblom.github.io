@@ -1,3 +1,3 @@
 # maxtornblom.github.io
 
-[TEST](http://dn.se)
+[react](./the tests/react/main.html)
