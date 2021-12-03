@@ -13,7 +13,7 @@ p {
     font-size: 2em;
 
     border: 10px black;
-    background-color: rgb(28, 104, 246);
+    background-color: transparent;
     color: white;
 
     position: absolute;
