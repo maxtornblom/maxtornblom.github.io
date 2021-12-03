@@ -1,3 +1,3 @@
 # maxtornblom.github.io
 
-[react](./thetests/react/main.html)
+[react](./TheTests/react/main.html)
