@@ -1,0 +1,159 @@
+p {
+    color: white;
+    position: relative;
+    top: 8em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    user-select: none; 
+} 
+
+.buttonRestart {
+    user-select: none;
+    font-size: 2em;
+
+    border: 10px black;
+    background-color: rgb(28, 104, 246);
+    color: white;
+
+    position: absolute;
+    top: 53%;
+    left: 47%;
+    right: 53%;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.bodyResults {
+    background-color: rgb(28, 104, 246);
+}
+
+.green {
+    background-color: lightgreen;
+}
+
+.red {
+    background-color: red;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.buttonStart {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    font-size: 50px;
+    border-radius: 12px;
+
+    background-color: transparent;
+    color: black;
+    border: 2px transparent;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttonStart:hover {
+    color: lightgreen;
+}
+
+.description {
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding: 35ex;
+    text-align: center;
+    font-size: 27px;
+
+}
+
+.mainMeny {
+    position: absolute;
+    top: 60%;
+    left: 43.5%;
+    font-size: 50px;
+    border-radius: 12px;
+
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bodyColor {
+    background-color: rgb(109, 209, 196);
+}
+
+h1,
+h2 {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    background-color: transparent;
+    font-size: 20px;
+    border-color: transparent;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+}
+
+.sidebar {
+    width: 175px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    overflow: auto;
+    background-color: #272727;
+}
+
+.sidebar a {
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 16px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.start {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+   
+
+    position: absolute;
+
+    top: 45%;
+    left: 48%;
+}
+
+.start:hover {
+    text-decoration: underline;
+    
+}
