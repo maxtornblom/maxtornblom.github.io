@@ -17,9 +17,11 @@ function click(e) {
                                 }, 5000);
    
     document.getElementById('results').innerHTML = results++
+    
 }
 
 let results = 0;
+
 
 
 document.onmousedown = click 
