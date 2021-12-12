@@ -1,11 +1,37 @@
-p {
+.wait {
     color: white;
-    position: relative;
-    top: 8em;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
-    text-align: center;
     user-select: none; 
+
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+} 
+
+.click {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    user-select: none; 
+
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+} 
+
+.results {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    user-select: none; 
+
+    position: absolute;
+    top: 44%;
+    right: 50%;
+    transform: translate(50%, 50%);
 } 
 
 .buttonRestart {
@@ -17,9 +43,9 @@ p {
     color: white;
 
     position: absolute;
-    top: 53%;
-    left: 47%;
-    right: 53%;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
 
     font-family: Arial, Helvetica, sans-serif;
 
@@ -77,8 +103,9 @@ p {
 
 .mainMeny {
     position: absolute;
-    top: 60%;
-    left: 43.5%;
+    top: 55%;
+    right: 50%;
+    transform: translate(50%, 50%);
     font-size: 50px;
     border-radius: 12px;
 
