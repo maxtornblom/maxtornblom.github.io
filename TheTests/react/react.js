@@ -5,7 +5,7 @@ function getRandomNumberBetween(min, max) {
 function measureTime(e) {
     let stopTime = new Date()
     let results = stopTime - startTime
-    
+    document.onmousedown = undefined
     document.getElementById('mainMenyButton').className = "vivible , mainMeny "
     document.getElementById('body').className = "bodyResults";
     document.getElementById('results').innerHTML = results + "  ms";
